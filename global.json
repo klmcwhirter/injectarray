@@ -1,0 +1,7 @@
+{
+    "projects": [
+        "injectarray",
+        "injectarray.autofac",
+        "injectarray.unity"
+    ]
+}
