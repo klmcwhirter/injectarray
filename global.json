@@ -1,6 +1,7 @@
 {
     "projects": [
         "injectarray",
-        "injectarray.Autofac"
+        "injectarray.Autofac",
+        "injectarray.Autofac.Keyed"
     ]
 }
