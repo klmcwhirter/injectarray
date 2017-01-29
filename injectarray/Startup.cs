@@ -31,14 +31,14 @@ namespace injectarray
             // Add app filters
 
             /* ValuesController uses these */
+            services.AddTransient<IFilter<string>, CountCharsFilter>();
             services.AddTransient<IFilter<string>, UpperCaseFilter>();
             services.AddTransient<IFilter<string>, LowerCaseFilter>();
-            services.AddTransient<IFilter<string>, CountCharsFilter>();
 
             /* LowerValuesController and UpperValuesController use these */
+            services.AddTransient<CountCharsFilter>();
             services.AddTransient<UpperCaseFilter>();
             services.AddTransient<LowerCaseFilter>();
-            services.AddTransient<CountCharsFilter>();
 
             services.AddTransient<LowerFilterProvider>();
             services.AddTransient<UpperFilterProvider>();

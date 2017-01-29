@@ -54,8 +54,8 @@ namespace injectarray
 
             // Add app filters            
             builder.RegisterType<CountCharsFilter>().AsSelf().As<IFilter<string>>();
-            builder.RegisterType<LowerCaseFilter>().AsSelf().As<IFilter<string>>();
             builder.RegisterType<UpperCaseFilter>().AsSelf().As<IFilter<string>>();
+            builder.RegisterType<LowerCaseFilter>().AsSelf().As<IFilter<string>>();
 
             builder.RegisterType<LowerFilterProvider>();
             builder.RegisterType<UpperFilterProvider>();
