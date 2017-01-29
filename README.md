@@ -3,3 +3,4 @@ Tests of a few popular IoC containers and their ability to inject specific confi
 
 * [injectarray](injectarray/README.md)
 * [injectarray.Autofac](injectarray.Autofac/README.md)
+* [injectarray.Autofac.Keyed](injectarray.Autofac.Keyed/README.md)
